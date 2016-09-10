@@ -17,7 +17,7 @@ var express           = require('express'),
     mongoose          = require('mongoose'),
     meetupsController = require('./server/controllers/meetups-controller');
 
-mongoose.connect('mongodb://localhost:27017/mean-demo');
+mongoose.connect('mongodb://egmp777:k117srvf@ds021356.mlab.com:21356/mean-demo');
 
 app.use(bodyParser());
 
